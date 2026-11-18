@@ -1,47 +1,43 @@
 # Spots
 
-This project is a responsive profile page built with semantic HTML and CSS using the BEM methodology and file structure.
-It includes interactive features implemented with JavaScript such as form validation, modal interactions, and dynamic card creation.
+Spots is a fully responsive, interactive web application built with HTML, CSS, and JavaScript. It allows users to interact with a profile, manage image cards, and communicate with a backend API.
+
+The project focuses on responsive design, DOM manipulation, form validation, and asynchronous JavaScript, using the BEM methodology for maintainable CSS.
+
+## Technologies and Features
+
+- Semantic HTML5
+- CSS Flexbox, Grid, and media queries
+- Responsive layouts for desktop, tablet, and mobile
+- BEM methodology and file structure
+- JavaScript DOM manipulation and event handling
+- Form validation and interactive modals
+- Dynamic card creation and management
+- Fetch API for asynchronous server communication
+- Webpack bundling and modular JavaScript
+- Interactive hover states and text truncation
 
 ## Project Structure
 
-The webpage consists of two main sections:
+### Profile
 
-**Profile**
+- Displays the user's avatar, name, and description.
+- Includes interactive profile management features.
+- Adapts to different screen sizes.
 
-- Displays the avatar, username, description, and action buttons.
+### Cards
 
-- Fully responsive across desktop, tablet, and mobile.
-
-- Text elements are truncated according to the project requirements.
-
-**Cards**
-
-- A grid of image cards that resize and reorganize depending on the screen width.
-
-- Text below each card is truncated to one line.
+- Responsive grid of image cards.
+- Dynamic card rendering and interactions.
+- Text truncation for longer card titles.
 
 ## Responsive Design
 
-- The layout adapts at the following breakpoints:
+The application adapts across multiple screen sizes, based on the following design specifications:
 
-- Desktop: 1440px design (max-width: 1280px container)
-
-- Tablet: max-width 1280px
-
-- Mobile: max-width 627px
-
-## Project features
-
-- Semantic HTML5
-- CSS Flexbox and Grid
-- Responsive media queries
-- BEM file structure
-- Interactive hover states
-- Fetch API for dynamic data loading and server communication
-- Webpack bundling and modular project structure
-- JavaScript form validation
-- DOM manipulation with event listeners
+- **Desktop:** 1440px design with a maximum container width of 1280px.
+- **Tablet:** Layout adjustments up to 1280px.
+- **Mobile:** Layout adjustments at 627px and below.
 
 ## Project Overview
 
@@ -53,23 +49,14 @@ The webpage consists of two main sections:
 
 ![Tablet](https://github.com/user-attachments/assets/e0796542-4835-4589-bf00-863fc9b6c104)
 
-
 ### Mobile View
 
 ![Mobile](https://github.com/user-attachments/assets/389b2a92-9ff4-488d-ab06-3798fca4b42f)
 
+## Figma Design
 
+[View the project design on Figma](https://www.figma.com/file/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project-%E2%80%94-Spots?type=design&node-id=2%3A60&mode=design&t=afgNFybdorZO6cQo-1)
 
+## Live Demo
 
-
-## Figma
-
-[Link to the project on Figma](https://www.figma.com/file/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project-%E2%80%94-Spots?type=design&node-id=2%3A60&mode=design&t=afgNFybdorZO6cQo-1)
-
-## GitHub Page
-
-https://iliascka.github.io/spots-website/
-
-## Project Video
-
-[Project video](https://www.loom.com/share/8043be7f435c44ff98a6c986d33eb045)
+[View Spots on GitHub Pages](https://iliascka.github.io/spots-website/)
